@@ -1,0 +1,27 @@
+<!--最外层-->
+<view >
+
+<view wx:for="{{list}}" class="home-view1" >
+  <!--图片层-->
+  <view class="home-view2">
+    <image class="home-image1" src="{{item.pic_url}}"></image>
+  </view>
+ 
+  <!--描述层-->
+  <text class="home-text1">
+  <text class="home-title-text">{{item.title}}</text>
+  {{item.desc}}。</text>
+ 
+  <!--信息层-->
+  <view class="home-view3"> 
+    <view class="home-view4" >
+      <text class="home-text" > 危险指数:<text class="show-star show-star-{{item.danger}}" >{{item.danger}}星</text></text>
+      <text class="home-text" > 风景指数:<text class="show-star show-star-{{item.nice}}">{{item.nice}}星</text></text>
+      <text class="home-text" > 人气:<text class="show-star show-star-{{item.popular}}">{{item.popular}}星</text></text>
+    </view>
+  </view>
+ 
+  <!--分界线line-->
+  <view class="home-view-line"></view>
+ </view>
+</view>

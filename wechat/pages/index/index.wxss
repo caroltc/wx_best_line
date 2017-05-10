@@ -1,0 +1,95 @@
+.home-view1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+  height: 100%;
+  width: 100%;
+  margin: 6px 0;
+ 
+}
+ 
+.home-view3{
+  display: flex;
+  justify-content: space-between;  
+}
+ 
+.home-view4{
+  display: flex;
+  align-items: center;
+}
+ 
+.home-image1{
+  height: 280px;
+  width:100%;
+}
+ 
+.home-image-heart{
+  width: 30px;
+  height: 30px;
+}
+ 
+.home-text1{
+  text-align: left;
+  line-height: 20px;
+  height: 80px;
+  color: white;
+  margin-top: -106px;
+  font-size: 12px;
+  background-color: black;
+  opacity: 0.5;
+  padding: 10px;
+  overflow: scroll;
+}
+.home-title-text {
+  font-weight: bolder;
+  font-size: 14px;
+}
+ 
+.home-text{
+  width: 120px;
+  margin: 6px 4px;
+  font-size: 12px;
+  font-family: '黑体';
+}
+
+.home-view-line{ 
+ width: 100%;
+ height: 6px;
+ margin-top: 5px;
+ background-color: gainsboro;
+}
+ 
+ .show-star {
+  text-align:center;
+  border-radius: 4px;
+  color: white
+ }
+ .show-star-7 {
+   padding: 0 25px;
+   background-color: red;
+ } 
+  .show-star-6 {
+   padding: 0 22px;
+   background-color: red;
+ } 
+  .show-star-5 {
+   padding: 0 21px;
+   background-color: orangered;
+ } 
+  .show-star-4 {
+   padding: 0 18px;
+   background-color: orange;
+ } 
+  .show-star-3 {
+   padding: 0 15px;
+   background-color: lightseagreen;
+ } 
+  .show-star-2 {
+   padding: 0 12px;
+   background-color: lightseagreen;
+ } 
+  .show-star-1 {
+   padding: 0 9px;
+   background-color: lightgreen;
+ } 
