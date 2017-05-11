@@ -25,7 +25,7 @@ class LineController extends Controller
             return response()->json(['error' => 'could_not_create_token']);
         }
         // all good so return the token
-        return $this->response->error('This is an error.', 404);
+        return $this->response->array(compact('token'));
     }
 
     public function check(Request $request)
