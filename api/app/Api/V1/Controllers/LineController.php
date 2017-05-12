@@ -32,6 +32,7 @@ class LineController extends Controller
     {
         JWTAuth::parseToken();// and you can continue to chain methods
         $user = JWTAuth::parseToken()->authenticate();
-        return ['user' => $user];
+//        return ['user' => $user];
+        return $this->response->item($user, new UserTransformer)->setStatusCode(200);
     }
 }

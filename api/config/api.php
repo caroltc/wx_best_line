@@ -93,10 +93,10 @@ return [
     |
     */
     'errorFormat' => [
-        'message' => ':message',
+        'msg' => ':message',
         'errors' => ':errors',
         'error_code' => ':code',
-        'status_code' => ':status_code',
+        'errorcode' => ':status_code',
         'debug' => ':debug'
     ],
     /*
@@ -152,6 +152,6 @@ return [
     */
     'defaultFormat' => env('API_DEFAULT_FORMAT', 'json'),
     'formats' => [
-        'json' => 'Dingo\Api\Http\Response\Format\Json',
+        'json' => 'App\Api\V1\Format\JsonFormat',
     ]
 ];
